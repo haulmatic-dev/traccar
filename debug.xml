@@ -27,4 +27,15 @@
     <entry key='atrack.custom'>true</entry>
     <entry key='intellitrac.port'>6037</entry>
 
+    <entry key='forward.enable'>true</entry>
+    <entry key='forward.type'>json</entry>
+    <entry key='forward.url'>http://localhost:8000/traccar</entry>
+    <entry key='event.forward.enable'>true</entry>
+    <entry key='event.forward.url'>http://localhost:8000/traccar/events</entry>
+
+<!--    <entry key='database.driver'>com.mysql.jdbc.Driver</entry>-->
+<!--    <entry key='database.url'>jdbc:mysql://localhost:3306/TRACCAR?allowMultiQueries=true</entry>-->
+<!--    <entry key='database.user'>traccardb</entry>-->
+<!--    <entry key='database.password'>mypassword</entry>-->
+
 </properties>
